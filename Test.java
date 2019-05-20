@@ -1,4 +1,4 @@
-/** ????? ????ï¿½ï¿½??? */
+/** ????? ????????? */
 public class Test {
     private volatile static Test instance = null;
     private Test(){}
@@ -14,9 +14,9 @@ public class Test {
     }
 }
 
-/** ????? ????ï¿½ï¿½??? */
+/** ????? ????????? */
 public class Test {
-    private volatile static Test instance = null;
+    private static Test instance = null;
     private Test(){}
     private static Test getInstance(){
         if (null == instance){
@@ -30,7 +30,7 @@ public class Test {
     }
 }
 /**
- * åˆ˜å»¶è¶… åŒé‡åˆ¤å®šé”
+ * ÁõÑÓ³¬ Ë«ÖØÅĞ¶¨Ëø
  */
 
 public class Test {
@@ -47,4 +47,3 @@ public class Test {
         return instance;
     }
 }
-
